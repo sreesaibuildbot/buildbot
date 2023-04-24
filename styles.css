@@ -1,12 +1,10 @@
 /* Global styles */
 body {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   color: #333;
-  background-color: #fff;
   margin: 0;
-  padding: 0;
 }
 
 a {
@@ -14,17 +12,21 @@ a {
   text-decoration: none;
 }
 
-/* Header styles */
-header {
-  background-color: #fff;
-  padding: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
-nav {
+/* Header styles */
+header {
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+
+nav ul {
   display: flex;
   justify-content: flex-end;
-  align-items: center;
 }
 
 nav li {
@@ -33,11 +35,6 @@ nav li {
 
 nav a {
   font-weight: bold;
-  transition: all 0.2s ease-in-out;
-}
-
-nav a:hover {
-  color: #222;
 }
 
 /* Hero section styles */
@@ -66,97 +63,13 @@ nav a:hover {
 
 /* About section styles */
 #about {
-  background-color: #f7f7f7;
-  padding: 50px;
-  text-align: center;
-}
-
-#about h2 {
-  font-size: 36px;
-  margin: 0 0 20px;
-}
-
-/* Skills section styles */
-#skills {
   background-color: #fff;
   padding: 50px;
   text-align: center;
-}
-
-#skills h2 {
-  font-size: 36px;
-  margin: 0 0 20px;
-}
-
-#skills ul {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-#skills li {
-  margin: 10px;
-  padding: 10px 20px;
+  margin-top: -50px;
   border: 1px solid #ccc;
   border-radius: 5px;
 }
 
-/* Contact section styles */
-#contact {
-  background-color: #f7f7f7;
-  padding: 50px;
-  text-align: center;
-}
-
-#contact h2 {
-  font-size: 36px;
-  margin: 0 0 20px;
-}
-
-#contact ul {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-#contact li {
-  margin: 20px 0;
-  font-size: 20px;
-}
-
-/* Footer styles */
-footer {
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
-}
-
-footer p {
-  margin: 0;
-  font-size: 16px;
-}
-
-/* Media queries */
-@media screen and (max-width: 768px) {
-  nav {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  nav li {
-    margin: 10px 0;
-  }
-
-  #hero {
-    height: 300px;
-  }
-
-  #hero h1 {
-    font-size: 32px;
-    margin-bottom: 10px;
-  }
-
-  #hero h2 {
+#about h2 {
+  font-size: 36
